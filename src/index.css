@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Ubuntu Condensed', sans-serif;
+  background-color: rgb(209, 81, 21);
+
+}
+
+.margine{
+  margin-left: 5px;
+}
+
+.btn-info {
+  color: #fff;
+  background-color: orangered;
+  border-color: black;
+}
+
+.btn-info:hover {
+  color: #fff;
+  background-color: black;
+  border-color: orangered;
+}
+
+.weather{
+  background-color:black;
+}
+
+.info{
+  color: orangered;
+}
+
+.shadow{
+  box-shadow: 10px 10px 5px grey;
+  margin-top: 2em;
+  border-radius: 0.8em;
+}
