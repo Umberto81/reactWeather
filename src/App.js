@@ -26,7 +26,6 @@ class App extends Component {
     //api call
     const api_call = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city},${country}&appid=${API_KEY}&units=metric`);
     const data = await api_call.json();
-    console.log(data);
 
     //if the input fields are not empty set the state
     if(city && country){
